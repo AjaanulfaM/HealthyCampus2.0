@@ -1,0 +1,69 @@
+.tp_physical-health-benefit {
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.4), -1px -1px 5px rgb(0, 0, 0, 0.4);
+    transition: transform 0.4s ease
+}
+
+.tp_physical-health-benefit:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.tp_health-benefit-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.tp_health-disease-facts {
+    display: block;
+    text-align: left;
+    width: 225px;
+    margin: auto;
+}
+
+.tp_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tp_health-disease-name {
+    font-size: 34px;
+    font-weight: 650;
+}
+
+#tp_heart-disease {
+    background-image: url('/images/heart-disease-image.jpeg');
+}
+
+#tp_cancer {
+    background-image: url('/images/cancer-image.jpeg');
+}
+
+#tp_diabetes {
+    background-image: url('/images/diabetes-image.jpeg');
+}
+
+#tp_dementia {
+    background-image: url('/images/dementia-image.jpeg');
+}
+
+#tp_osteoarthritis {
+    background-image: url('/images/osteoarthritis-image.jpeg');
+}
+
+#tp_depression {
+    background-image: url('/images/depression-image.jpeg');
+}
